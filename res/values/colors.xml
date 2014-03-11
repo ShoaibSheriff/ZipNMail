@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="focus_blue"> #9934B5E4</color>
+    <color name="tab_indicator_blue">#7683A5</color>
+    <color name="almost_white">#efefef</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="theme_blue">#606a85</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_grey">#888888</color>
+    <color name="grey">#999999</color>
+
+</resources>

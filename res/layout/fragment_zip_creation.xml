@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.shouref.zipnnmail.utilities.CustomAutoCompleteView
+            android:id="@+id/et_zip_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint="@string/zip_name"
+            android:singleLine="true" >
+        </com.shouref.zipnnmail.utilities.CustomAutoCompleteView>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:id="@+id/cb_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_showPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_password" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_create_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout_main"
+        android:text="@string/create_zip" />
+
+</RelativeLayout>

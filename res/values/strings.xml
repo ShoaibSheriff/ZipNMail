@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zip N Mail</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_files_added">No files added to Zip</string>
+    <string name="add_to_zip">Add to Zip</string>
+    <string name="add_selected">ADD SELECTED</string>
+    <string name="zip_name">Zip Name</string>
+    <string name="password">Password if to be Encrypted</string>
+    <string name="show_password"> Show Password</string>
+    <string name="save_password"> Save Password</string>
+    <string name="add_password_in_mail"> Add Password in Mail subject</string>
+    <string name="path_font_file">fonts/flaticon.ttf</string>
+    <string name="exit_message">Press back again to exit</string>
+    <string name="dummy_text">Dummy</string>
+    <string name="attach_mail">MAIL ZIP</string>
+    <string name="create_zip">Create Zip</string>
+
+</resources>

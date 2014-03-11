@@ -1,0 +1,55 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/Theme.MyAppTheme.ActionBar.Tab</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBar.TabTextStyle</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/theme_blue</item>
+        <item name="android:minWidth">32dip</item>
+        <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/Theme.MyAppTheme.ActionBar.SubTitleTextStyle</item>
+        <item name="android:indeterminateProgressStyle">@style/Theme.MyAppTheme.ActionBar.IndeterminateProgressBar</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar.SubTitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">@dimen/action_bar_sub_title_text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar.Tab">
+        <item name="android:background">@drawable/tab_bar_background_inline</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MyActionBar.TabTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/almost_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar.IndeterminateProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:minWidth">26dp</item>
+        <item name="android:maxWidth">26dp</item>
+        <item name="android:minHeight">26dp</item>
+        <item name="android:maxHeight">26dp</item>
+    </style>
+
+</resources>
